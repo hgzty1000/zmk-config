@@ -1,0 +1,14 @@
+file_format: "1"
+id: hg58
+name: HG58
+type: shield
+url: 
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - hg58_left
+  - hg58_right
